@@ -29,6 +29,10 @@ func main() {
 	// sayGreeting(n)
 	// sayBye(n)
 
+	sayHello("Varun")
+
+	// go run .\main.go .\greetings.go
+
 	cycleNames([]string{"Cloud", "Barret", "tifa"}, sayGreeting)
 
 	a1 := circleArea(10.5)
